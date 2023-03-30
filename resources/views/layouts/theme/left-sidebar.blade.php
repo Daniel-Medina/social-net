@@ -5,7 +5,7 @@
         <nav class="pb-2">
             <a href="/" class="flex justify-start items-center">
                 <img src="{{ asset('logo.png') }}" class="w-14 h-14 object-cover object-center rounded-full" alt="">
-                <span class="font-bold text-gray-600">SOCIALNET</span>
+                <span class="font-bold text-gray-600 ml-2">SOCIALNET</span>
             </a>
         </nav>
 
@@ -33,24 +33,16 @@
                     <span class="ml-2 text-gray-500 font-semibold text-2xl">Inicio</span>
                 </a>
                 <a href="#" class="flex items-center mb-6">
-                    <x-user-svg class=""/>
-                    <span class="ml-2 text-gray-500 font-semibold text-2xl">Perfil</span>
+                    <x-heart-lined-svg class=""/>
+                    <span class="ml-2 text-gray-500 font-semibold text-2xl">Amigos</span>
+                </a>
+                <a href="#" class="flex items-center mb-6">
+                    <x-layer-svg class=""/>
+                    <span class="ml-2 text-gray-500 font-semibold text-2xl">Comunidades</span>
                 </a>
                 <a href="#" class="flex items-center mb-6">
                     <x-compass-svg class=""/>
                     <span class="ml-2 text-gray-500 font-semibold text-2xl">Descubrir</span>
-                </a>
-                <a href="#" class="flex items-center mb-6">
-                    <x-layer-svg class=""/>
-                    <span class="ml-2 text-gray-500 font-semibold text-2xl">Grupos</span>
-                </a>
-                <a href="#" class="flex items-center mb-6">
-                    <x-save-svg class=""/>
-                    <span class="ml-2 text-gray-500 font-semibold text-2xl">Guardado</span>
-                </a>
-                <a href="#" class="flex items-center mb-6">
-                    <x-heart-lined-svg class=""/>
-                    <span class="ml-2 text-gray-500 font-semibold text-2xl">Seguidores</span>
                 </a>
                 <a href="#" class="flex items-center mb-6">
                     <x-media-random-svg class=""/>
