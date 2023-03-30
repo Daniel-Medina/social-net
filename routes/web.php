@@ -6,6 +6,6 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/daniel-medina', function () {
+Route::get('/danielMedina', function () {
     return view('profile');
 });
